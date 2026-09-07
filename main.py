@@ -155,7 +155,7 @@ def home_search_page():
                     <h3 class="fw-bold text-primary">Portal Validasi Sertifikat</h3>
                     <p class="text-muted small">Layanan Verifikasi Keabsahan Dokumen Pelatihan & Sertifikasi</p>
                 </div>
-                <form action="/search" method="post">
+                <form action="/search" method="get">
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Nomor Sertifikat atau ID Sistem</label>
                         <input type="text" name="query" class="form-control form-control-lg" placeholder="Contoh: CRT-8A7B6C5D4E" required>
